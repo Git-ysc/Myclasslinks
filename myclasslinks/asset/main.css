@@ -1,0 +1,62 @@
+﻿*{box-sizing: border-box; margin:0; padding:10px 10px 10px 10px;}
+.body{width:100%; }
+
+.ib {width:100%;  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); border-radius:25px; overflow:hidden;
+box-shadow: 20px 20px 20px #888888;}
+
+.ib a { float:left; display: block; text-decoration:none; width:20%; padding:5px 0px 5px; text-align:center; transition: all 0.3s ease;
+color: white; font-size: 20px;}
+
+.ib a:hover {color:black; border-radius:80px;background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);}
+
+tr:nth-child(even) {background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);}
+
+tr:nth-child(odd) {background: linear-gradient(to left, #feac5e, #c779d0, #4bc0c8); }
+
+table {font-size:13px;box-shadow: 20px 20px 20px #888888; 
+ width: 100%;
+ border-collapse: collapse;
+ table-layout:auto;}
+
+ td{
+  text-align: center; padding: 10px;   border-bottom: 2px solid white; border-radius:15px;color:white;
+  }
+  th {
+  text-align: center;color:white;
+  padding: 11px;   border-bottom: 3px solid white; 
+  }
+a {text-decoration:none;}
+
+.tp {
+  position: relative;
+  display: inline-block;
+}
+
+.tp .tpt {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1; bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tp:hover .tpt {
+  visibility: visible;}
+ h2{text-align:center; border-radius:25px; box-shadow: 20px 20px 20px #888888; float:center; margin:10px 0px 10px;
+  background: linear-gradient(to left, #fc354c, #0abfbc); color:white;}
+
+ #not { border-radius:25px; box-shadow: 20px 20px 20px #888888; float:center; margin:10px 0px 10px;
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);color:white;overflow:auto;}
+
+  #abt{width:100%;  background: linear-gradient(to right, #485563, #29323c); border-radius:25px; overflow:hidden;
+box-shadow: 20px 20px 20px #888888; color:white;}
+p{padding:0px;margin:0px;}
+ 
